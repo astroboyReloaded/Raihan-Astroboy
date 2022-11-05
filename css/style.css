@@ -1,0 +1,51 @@
+#header {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    
+}
+
+#header-img {
+    height: 100px;
+    width: 100px;
+}
+
+.product,
+.about,
+.home {
+    height: 100vh;
+    border: 2px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#home {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    height: 300px;
+    background-color: rgb(181, 181, 211);
+    display: flex;
+    justify-content: center;
+}
+
+.contact>form>button {
+    background-color: goldenrod;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .home>h2 {
+        font-size: 30px;
+    }
+}
